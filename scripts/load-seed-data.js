@@ -9,7 +9,7 @@ client.query(`
 `,
 
 ['snowy', bcrypt.hashSync('123', 8)]
-  
+)
   .then(
     () => console.log('seed data load complete'),
     err => console.log(err)
@@ -17,4 +17,3 @@ client.query(`
   .then(() => {
     client.end();
   })
-)
