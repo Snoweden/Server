@@ -7,8 +7,9 @@ client.query(`
   VALUES ($1, $2)
   RETURNING id;
 `,
-['bill', bcrypt.hashSync('123', 8)]
-)
+
+['snowy', bcrypt.hashSync('123', 8)]
+  
   .then(
     () => console.log('seed data load complete'),
     err => console.log(err)
