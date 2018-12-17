@@ -3,6 +3,7 @@ const client = require('../lib/db-client');
 
 client.query(`
   DROP TABLE IF EXISTS profile;
+  DROP TABLE IF EXISTS resort;
 `)
   .then(
     () => console.log('drop tables complete'),
