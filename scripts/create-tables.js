@@ -36,13 +36,3 @@ CREATE TABLE IF NOT EXISTS user_feedback (
   .then(() => {
     client.end();
   });
-
-  // CREATE TABLE IF NOT EXISTS user_feedback (
-  //   id SERIAL PRIMARY KEY,
-  //   comment VARCHAR(256),
-  //   ticket_price VARCHAR(256),
-  //   who VARCHAR(256),
-  //   crowded VARCHAR(256),
-  //   resort_id INTEGER NOT NULL REFERENCES resort(id),
-  //   profile_id INTEGER NOT NULL REFERENCES profile(id)
-  // );

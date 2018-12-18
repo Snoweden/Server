@@ -3,16 +3,6 @@ const client = require('../lib/db-client');
 const bcrypt = require('bcryptjs');
 const resort = require('./resorts.json');
 
-// const feedback = [{
-//   comment: "this is a comment", 
-//   ticket_price: "this is the ticket price", 
-//   who: "i am a snowboarder", 
-//   crowded:'No its empty', 
-//   resort_id: "1",
-//   profile_id: "1"
-
-// }]
-
 client.query(`
   INSERT INTO profile (username, hash)
   VALUES ($1, $2)
