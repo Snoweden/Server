@@ -11,19 +11,17 @@ client.query(`
 
 ['snowy', bcrypt.hashSync('123', 8)]
 )
-  .then( result => {
-    const profile = result.rows[0];
-
-      return Promise.all(
-        resort.map(skiresort => {
-          return client.query(`
-          INSERT INTO resort (resort_name, coordinate_lat, coordinate_lon, address, description, url)
-          VALUES ($1, $2, $3, $4, $5, $6)
-          RETURNING id;
-          `, 
-            [skiresort.resort_name, skiresort.coordinate_lat, skiresort.coordinate_lon, skiresort.address, skiresort.description, skiresort.url])
-        })
-      );
+  .then(() => {
+    return Promise.all(
+      resort.map(skiresort => {
+        return client.query(`
+        INSERT INTO resort (resort_name, coordinate_lat, coordinate_lon, address, description, url)
+        VALUES ($1, $2, $3, $4, $5, $6)
+        RETURNING id;
+        `, 
+        [skiresort.resort_name, skiresort.coordinate_lat, skiresort.coordinate_lon, skiresort.address, skiresort.description, skiresort.url]);
+      })
+    );
   })
   .then(
     () => console.log('seed data load complete'),
@@ -31,4 +29,4 @@ client.query(`
   )
   .then(() => {
     client.end();
-  })
+  });
