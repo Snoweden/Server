@@ -1,0 +1,18 @@
+[
+    {
+      "resort_name": "Cooper Spur",
+      "coordinate_lat": 45.425796,
+      "coordinate_lon": -121.590928,
+      "address": "10755 Cooper Spur Rd, Mt Hood, OR 97041", 
+      "description": "cool place for stuff", 
+      "url": "https://www.cooperspur.com/"
+    },
+    {
+        "resort_name": "timberline",
+        "coordinate_lat": 45.330688,
+        "coordinate_lon": -121.709183,
+        "address": "something Address", 
+        "description": "cool place for stuff", 
+        "url": "someUrl"
+    }
+]

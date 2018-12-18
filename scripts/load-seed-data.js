@@ -1,15 +1,8 @@
 require('dotenv').config();
 const client = require('../lib/db-client');
 const bcrypt = require('bcryptjs');
+const resort = require('./resorts.json');
 
-const resort = [{
-  resort_name: "timberline",
-  coordinate_lat: "45.330688",
-  coordinate_lon: "-121.709183",
-  address: "something Address", 
-  description: "cool place for stuff", 
-  url: "someUrl"
-}]
 // const feedback = [{
 //   comment: "this is a comment", 
 //   ticket_price: "this is the ticket price", 
