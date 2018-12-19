@@ -21,6 +21,7 @@ CREATE TABLE IF NOT EXISTS profile (
 
 CREATE TABLE IF NOT EXISTS user_feedback (
     id SERIAL PRIMARY KEY,
+    star_rating INTEGER,
     comment VARCHAR(256),
     ticket_price INTEGER,
     who VARCHAR(256),
