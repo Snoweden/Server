@@ -1,18 +1,106 @@
 [
     {
-      "resort_name": "Cooper Spur",
-      "coordinate_lat": 45.425796,
-      "coordinate_lon": -121.590928,
-      "address": "10755 Cooper Spur Rd, Mt Hood, OR 97041", 
-      "description": "cool place for stuff", 
-      "url": "https://www.cooperspur.com/"
+        "resort_name": "Cooper Spur",
+        "coordinate_lat": 45.425796,
+        "coordinate_lon": -121.590928,
+        "address": "10755 Cooper Spur Rd, Parkdale/Mt Hood, OR 97041", 
+        "description": "Ski area with one lift, ten runs, and resort with cabins and hotel", 
+        "url": "https://www.cooperspur.com/"
     },
     {
-        "resort_name": "timberline",
-        "coordinate_lat": 45.330688,
-        "coordinate_lon": -121.709183,
-        "address": "something Address", 
-        "description": "cool place for stuff", 
-        "url": "someUrl"
+        "resort_name": "Mt Hood Meadows",
+        "coordinate_lat": 45.331974,
+        "coordinate_lon": -121.665196,
+        "address": "14040 Oregon 35, Mt Hood, OR 97041", 
+        "description": "Large ski resort with 11 lifts, 87 runs, night skiing and lodge", 
+        "url": "https://www.skihood.com/"
+    },
+    {
+        "resort_name": "Mt Hood Ski Bowl",
+        "coordinate_lat": 45.303692,
+        "coordinate_lon": -121.590928,
+        "address": "87000 US-26, Government Camp/Mt Hood, OR 97028", 
+        "description": "Largest night skiing area in the US, with 65 runs, 4 lifts, lodge and alpine slide in off-season", 
+        "url": "http://www.skibowl.com/winter/"
+    },
+    {
+        "resort_name": "Summit Ski Area",
+        "coordinate_lat": 45.303110,
+        "coordinate_lon": -121.745807,
+        "address": "90255 Government Camp Loop, Government Camp/Mt Hood, OR 97028", 
+        "description": "Oldest ski area in the Pacific NW. Small ski park with alpine trails, snow tubing, and one lift", 
+        "url": "https://summitskiarea.com/"
+    },
+    {
+        "resort_name": "Timberline",
+        "coordinate_lat": 45.331395,
+        "coordinate_lon": -121.711007,
+        "address": "27500 E Timberline Road, Government Camp/Mt Hood, OR 97028", 
+        "description": "WPA mountain lodge built in 1938 with year-round skiing", 
+        "url": "http://www.timberlinelodge.com/"
+    },
+    {
+        "resort_name": "Hoodoo Ski Area",
+        "coordinate_lat": 44.409000,
+        "coordinate_lon": -121.871349,
+        "address": "27400 Big Lake Road, Sisters/Santiam Pass, OR 97759", 
+        "description": "Resort with nordic skiing, tubing park, night skiing. Five lifts with 34 runs", 
+        "url": "https://skihoodoo.com/"
+    },
+    {
+        "resort_name": "Mt Bachelor",
+        "coordinate_lat": 44.003579,
+        "coordinate_lon": -121.678783,
+        "address": "13000 SW Century Drive, Bend/Mt Bachelor, OR 97702", 
+        "description": "Second largest single-mountain ski area in the US with 11 lifts, 101 runs, lodge and cross-country skiing", 
+        "url": "https://www.mtbachelor.com/"
+    },
+    {
+        "resort_name": "Willamette Pass",
+        "coordinate_lat": 43.601001,
+        "coordinate_lon": -122.036432,
+        "address": "Highway 58, Crescent/Cascade Range, OR 97733", 
+        "description": "Ski area with six lifts, 29 runs, lodge and summertime scenic gondola ride. Home of one of the steepest runs in the world", 
+        "url": "http://www.willamettepass.com/"
+    },
+    {
+        "resort_name": "Anthony Lakes",
+        "coordinate_lat": 44.999571,
+        "coordinate_lon": -118.054202,
+        "address": "47500 Anthony Lakes Hwy, North Powder/Blue Mountains, OR 97867", 
+        "description": "Ski area with one lift, 21 runs, snowboard course, and lodge", 
+        "url": "https://anthonylakes.com/"
+    },
+    {
+        "resort_name": "Ferguson Ridge",
+        "coordinate_lat": 45.282383,
+        "coordinate_lon": -117.112541,
+        "address": "Joseph/Wallowa Mountains, OR 97846", 
+        "description": "Small, community-run ski area with t-bar pull lift and volunteer-operated lodge", 
+        "url": "http://www.skifergi.com/"
+    },
+    {
+        "resort_name": "Sprout Springs",
+        "coordinate_lat": 45.755460,
+        "coordinate_lon": -118.051410,
+        "address": "79327 OR-204, Weston/Blue Mountains, OR 97886", 
+        "description": "Small ski area with lodge, two lifts, 17 runs and night skiing", 
+        "url": "http://www.spoutspringsskiarea.com/"
+    },
+    {
+        "resort_name": "Warner Canyon",
+        "coordinate_lat": 42.237134,
+        "coordinate_lon": -120.295509,
+        "address": "1301 South G St, Lakeview/Warner Mountains, OR 97630", 
+        "description": "Small ski area operated locally by the Fremont Highlander Ski Club. One lift, 21 runs", 
+        "url": "http://warnercanyon.org/"
+    },
+    {
+        "resort_name": "Mt Bailey - Cat Skiing",
+        "coordinate_lat": 43.177813,
+        "coordinate_lon": -122.137920,
+        "address": "Diamond Lake Lodge @ 350 Resort Drive, Diamond Lake/Mt Bailey, OR 97731", 
+        "description": "Caterpillar service to groomed trails, snowmobile rentals, nearby Diamond Lake Lodge", 
+        "url": "https://www.catskimtbailey.com/"
     }
 ]
