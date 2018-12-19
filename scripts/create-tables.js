@@ -22,11 +22,11 @@ CREATE TABLE IF NOT EXISTS profile (
 CREATE TABLE IF NOT EXISTS user_feedback (
     id SERIAL PRIMARY KEY,
     comment VARCHAR(256),
-    ticket_price VARCHAR(256),
+    ticket_price INTEGER,
     who VARCHAR(256),
     crowded VARCHAR(256),
     resort_id INTEGER NOT NULL REFERENCES resort(id),
-    profile_id INTEGER NOT NULL REFERENCES profile(id)
+    profile_id VARCHAR(256) NOT NULL
   );
   `)
   .then(
