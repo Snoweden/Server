@@ -27,7 +27,7 @@ CREATE TABLE IF NOT EXISTS user_feedback (
     who VARCHAR(256),
     crowded VARCHAR(256),
     resort_id INTEGER NOT NULL REFERENCES resort(id),
-    profile_id VARCHAR(256) NOT NULL
+    profile_id INTEGER NOT NULL
   );
   `)
   .then(
