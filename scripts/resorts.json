@@ -80,6 +80,14 @@
         "url": "http://www.skifergi.com/"
     },
     {
+        "resort_name": "Mt Ashland",
+        "coordinate_lat": 42.082464,
+        "coordinate_lon": -122.704617,
+        "address": "11 Mt Ashland Ski Rd, Ashland/Mt Ashland, OR 97520",
+        "description": "Nonprofit-run ski area with four lifts, 23 runs and open bowl skiing, skirting the Pacific Crest Trail",
+        "url": "https://www.mtashland.com/"
+    },
+    {
         "resort_name": "Sprout Springs",
         "coordinate_lat": 45.755460,
         "coordinate_lon": -118.051410,
