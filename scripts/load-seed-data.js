@@ -8,9 +8,7 @@ client.query(`
   VALUES ($1, $2)
   RETURNING id;
 `,
-
-['snowy', bcrypt.hashSync('123', 8)]
-)
+['snowy', bcrypt.hashSync('123', 8)])
   .then(() => {
     return Promise.all(
       resort.map(skiresort => {
