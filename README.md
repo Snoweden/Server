@@ -1,4 +1,4 @@
 Add a README to onboard new team devs!
 
-* Include .env instructions
+* Include setup install instructions
 * Add API documentation
