@@ -31,8 +31,7 @@
     "jsonwebtoken": "^8.4.0",
     "morgan": "^1.9.1",
     "nodemon": "^1.18.9",
-    "pg": "^7.7.1",
-    "vue-star-rating": "^1.6.1"
+    "pg": "^7.7.1"
   },
   "devDependencies": {
     "eslint": "^5.10.0"
